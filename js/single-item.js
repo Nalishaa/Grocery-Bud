@@ -18,3 +18,37 @@ export function createSingleItem(item) {
 
   return div;
 }
+
+function createSingleItem(item) {
+  // ....
+
+  // Add event listener for checkbox
+  $div.find('input[type="checkbox"]').on("change", function () {
+    editCompleted(item.id);
+  });
+
+  return $div;
+}
+
+function createSingleItem(item) {
+  // ....
+
+  // Add event listener for remove button
+  $div.find(".remove-btn").on("click", function () {
+    removeItem(item.id);
+  });
+
+  return $div;
+}
+
+// Create SingleItem Element
+function createSingleItem(item) {
+  // ....
+
+  // Add event listener for edit button
+  $div.find(".edit-btn").on("click", function () {
+    setEditId(item.id);
+  });
+
+  return $div;
+}
