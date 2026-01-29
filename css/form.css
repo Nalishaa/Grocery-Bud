@@ -1,36 +1,44 @@
 form h2 {
   text-align: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
   text-transform: capitalize;
-  font-weight: normal;
+  font-family: Helvetica, sans-serif;
+  font-weight: 550;
+  color: #ffffff;
+  text-shadow:
+    0 0 5px #b388ff,
+    0 0 10px #b388ff,
+    0 0 20px #b388ff;
 }
 
 .form-control {
   display: grid;
-  grid-template-columns: 1fr 100px;
+  grid-template-columns: 1fr 105px;
 }
 
 .form-input {
   width: 100%;
   padding: 0.375rem 0.75rem;
   border-radius: 0;
-  border-top-left-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
+  border-top-left-radius: 0.4rem;
+  border-bottom-left-radius: 0.4rem;
   border: 1px solid #ddd;
 }
 
 .form-input::placeholder {
-  color: #aaa;
+  color: #9e9797;
 }
 
 .form-control .btn {
   cursor: pointer;
   color: #fff;
   background: #06b6d4;
+  font-family: Inter;
+  font-weight: bold;
   border: transparent;
   border-radius: 0;
-  border-top-right-radius: 0.25rem;
-  border-bottom-right-radius: 0.25rem;
+  border-top-right-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
   padding: 0.375rem 0.75rem;
   text-transform: capitalize;
 }
@@ -38,3 +46,4 @@ form h2 {
 .form-control .btn:hover {
   background: #0e7490;
 }
+
