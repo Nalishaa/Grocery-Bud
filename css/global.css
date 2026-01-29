@@ -47,8 +47,4 @@ body {
 
 }
 
-.completed {
-  text-decoration: line-through;
-  text-decoration-thickness: 3px;
-  text-decoration-color: #ff4d4d;
-}
+
