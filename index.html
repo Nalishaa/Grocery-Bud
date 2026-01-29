@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grocery Bud</title>
     
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.1/css/all.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="writing_hand.png">
@@ -15,9 +18,18 @@
     <link rel="stylesheet" href="css/items.css" />
     <link rel="stylesheet" href="css/form.css" />
   </head>
+
   <body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/single-item.js"></script>
+    <script src="js/items.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/app.js"></script>
+    
     <section class="section-center">
-      <div id="app">
+    <div id="app">
   <div class="items">
     <div class="single-item">
       <input type="checkbox" checked />
@@ -35,30 +47,30 @@
       <input type="checkbox" checked />
       <p style="text-decoration: line-through">bread</p>
       <button class="btn icon-btn edit-btn" type="button">
-        <i class="fa-regular fa-pen-to-square"></i>
+        <i class="fa-solid fa-pen"></i>
       </button>
       <button class="btn icon-btn remove-btn" type="button">
-        <i class="fa-regular fa-trash-can"></i>
+        <i class="fa-solid fa-trash"></i>
       </button>
     </div>
     <div class="single-item">
       <input type="checkbox" />
       <p style="text-decoration: none">eggs</p>
       <button class="btn icon-btn edit-btn" type="button">
-        <i class="fa-regular fa-pen-to-square"></i>
+        <i class="fa-solid fa-pen"></i>
       </button>
       <button class="btn icon-btn remove-btn" type="button">
-        <i class="fa-regular fa-trash-can"></i>
+        <i class="fa-solid fa-trash"></i>
       </button>
     </div>
     <div class="single-item">
       <input type="checkbox" />
       <p style="text-decoration: none">butter</p>
       <button class="btn icon-btn edit-btn" type="button">
-        <i class="fa-regular fa-pen-to-square"></i>
+        <i class="fa-solid fa-pen"></i>
       </button>
       <button class="btn icon-btn remove-btn" type="button">
-        <i class="fa-regular fa-trash-can"></i>
+        <i class="fa-solid fa-trash"></i>
       </button>
     </div>
   </div>
