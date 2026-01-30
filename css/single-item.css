@@ -43,3 +43,10 @@
   text-decoration-color: #01bb0a;
 }
 
+@media (max-width: 600px) {
+
+  .single-item:first-child {
+    margin-top: 15px;
+  }
+
+}
