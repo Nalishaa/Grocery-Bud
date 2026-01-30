@@ -6,13 +6,6 @@
   box-sizing: border-box;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
-
-
 body {
   font-family: Inter, sans-serif;
   background-color: #eee;
@@ -39,7 +32,7 @@ body {
 
 .section-center {
   position: relative;
-  margin: 250px auto;
+  margin: 0px auto;
   width: 40%;
   max-width: 70rem;
   padding: 20px 24px;
@@ -59,3 +52,10 @@ body {
     0 0 35px rgba(179,136,255,.25);
   }
 
+  @media (max-width: 600px) {
+.section-center{
+  width: 100%;
+  max-width: none;
+  border-radius: 0;
+}    
+  }
