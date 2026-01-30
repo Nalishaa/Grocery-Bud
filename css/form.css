@@ -13,6 +13,7 @@ form h2 {
 
 .form-control {
   display: grid;
+  height: 40px;
   grid-template-columns: 1fr 105px;
 }
 
@@ -23,6 +24,7 @@ form h2 {
   border-top-left-radius: 0.4rem;
   border-bottom-left-radius: 0.4rem;
   border: 1px solid #ddd;
+  text-transform: none;
 }
 
 .form-input::placeholder {
@@ -31,9 +33,10 @@ form h2 {
 
 .form-control .btn {
   cursor: pointer;
-  color: #fff;
+  color: #080257;
   background: #06b6d4;
   font-family: Inter;
+  font-size: 15px;
   font-weight: bold;
   border: transparent;
   border-radius: 0;
