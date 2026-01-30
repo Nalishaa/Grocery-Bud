@@ -42,3 +42,14 @@
   text-decoration-thickness: 3.35px;
   text-decoration-color: #01bb0a;
 }
+
+@media (max-width: 600px) {
+  .single-item {
+    grid-template-columns: 1fr auto;
+  }
+
+  .single-item .btn {
+    display: flex;
+    gap: 8px;
+  }
+}

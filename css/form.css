@@ -50,3 +50,18 @@ form h2 {
   background: #0e7490;
 }
 
+@media (max-width: 600px) {
+  .form-control {
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+  }
+
+  .form-input {
+    border-radius: 0.4rem;
+  }
+
+  .form-control .btn {
+    width: 100%;
+    border-radius: 0.4rem;
+  }
+}
